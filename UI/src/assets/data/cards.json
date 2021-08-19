@@ -1,0 +1,26 @@
+[{
+    "type": "bank-draft",
+    "title": "Bank Draft",
+    "position": 0,
+    "thumbnail": "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif"
+}, {
+    "type": "bill-of-lading",
+    "title": "Bill of Lading",
+    "position": 1,
+    "thumbnail": "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif"
+}, {
+    "type": "invoice",
+    "title": "Invoice",
+    "position": 2,
+    "thumbnail": "https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif"
+}, {
+    "type": "bank-draft-2",
+    "title": "Bank Draft2", 
+    "position ": 3,
+    "thumbnail": "https://media.giphy.com/media/yFQ0ywscgobJK/giphy.gif"
+}, {
+    "type": "bill-of-lading-2", 
+    "title": "Bill of Lading 2",
+    "position": 4,
+    "thumbnail": "https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif"
+}]
