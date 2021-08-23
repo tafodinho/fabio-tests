@@ -1,12 +1,21 @@
 import PropTypes from 'prop-types';
+import Image from './Image';
 
-const Card = ({item}) => {
+const Card = ({ 
+    item,
+    setThumbnail,
+    setShowThumbnail
+}) => {
     return (
         <div 
-            className="card"
+            className="card" 
+            onClick={() => {
+                setShowThumbnail(true);
+                setThumbnail(item);
+            }} 
         >
             <h1>{item.title}</h1>
-            <img src={item.thumbnail} width={"80%"} height={"70%"}></img>
+            <Image link={item.thumbnail} width="80%" height="70%" title={item.title} />
         </div>
     );
 };

@@ -53,3 +53,11 @@
   
     font-size: 15px;
 }
+.thumbnail {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(34, 34, 34, 0.329);
+  text-align: center;
+  z-index: 2;
+}
