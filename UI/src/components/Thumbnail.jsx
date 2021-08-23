@@ -7,7 +7,6 @@ const Thumbnail = ({
     setShowThumbnail
 }) => {
     const handleKeyDown = (event) => {
-        console.log(event)
         if(event.keyCode === 27) {
             setShowThumbnail(false);
         }
